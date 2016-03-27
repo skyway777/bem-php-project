@@ -1,0 +1,5 @@
+block('partial')(
+	def()(function(){
+		return applyCtx(this.ctx.content);
+	})
+);
